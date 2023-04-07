@@ -3,6 +3,8 @@ from pyspark.sql.functions import col, lit, sha2, xxhash64, concat, current_date
 from pyspark.sql.types import StructType, StructField, StringType, TimestampType
 from pyspark.sql.utils import AnalysisException
 
+# take 1 on github upload
+
 spark = SparkSession \
         .builder \
         .appName("DeltaLake") \
